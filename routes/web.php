@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 // Example: http://localhost:8000/blog
 Route::get('blog', function () {
@@ -14,18 +14,17 @@ Route::get('blog', function () {
         ['id' => 2, 'title' => 'Laravel',   'slug' => 'laravel'],
     ];
     return view('blog', ['posts' => $posts]);
-});
+})->name('blog');
 
 // Example: http://localhost:8000/blog/plaravel
 Route::get('blog/{slug}', function ($slug) {
     // Consulta a base de datos
     $post = $slug;
     return view('post', ['post' => $post]);
-});
+})->name('post');
 
 // Example: http://localhost:8000/buscar?query=Lo_que_estoy_buscando
 /* Route::get('buscar', function (Request $request) {
     // Consulta a base de datos
     return $request->all();
 }); */
-
