@@ -4,7 +4,8 @@
 
 <a href="https://github.com/FernandoTorresL/portal_web_dspa" target="_blank">![GitHub repo size](https://img.shields.io/github/repo-size/FernandoTorresL/portal_web_dspa)</a>
 
-## Project for IMSS, México
+
+## Project for IMSS, México
 
 ## Introduction
 
@@ -20,7 +21,7 @@ This project was build with the use of:
 
 - PHP 8, Laravel 9
 - XAMPP stack (Apache, MySQL/MariaDB, PHP)
-- Valet
+- Valet (actually, using Digital Ocean for deploy)
 
 This project has several previous releases with different technologies; some are:
 
@@ -42,6 +43,7 @@ Here are some old screencaptures:
 ## Release History
 
 WIP (Work In Progress)
+- 23 Nov 2022 Testing automatic deploy with Digital Ocean hosting 
 
 ---
 
