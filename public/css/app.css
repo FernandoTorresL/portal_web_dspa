@@ -832,6 +832,9 @@ select {
 .w-6 {
   width: 1.5rem;
 }
+.w-1\/2 {
+  width: 50%;
+}
 .w-full {
   width: 100%;
 }
@@ -846,9 +849,6 @@ select {
 }
 .w-48 {
   width: 12rem;
-}
-.w-1\/2 {
-  width: 50%;
 }
 .max-w-7xl {
   max-width: 80rem;
@@ -930,6 +930,9 @@ select {
 }
 .gap-2 {
   gap: 0.5rem;
+}
+.gap-1 {
+  gap: 0.25rem;
 }
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
