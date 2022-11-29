@@ -727,6 +727,9 @@ select {
 .mt-3 {
   margin-top: 0.75rem;
 }
+.mb-8 {
+  margin-bottom: 2rem;
+}
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -798,6 +801,9 @@ select {
 }
 .h-12 {
   height: 3rem;
+}
+.h-px {
+  height: 1px;
 }
 .h-20 {
   height: 5rem;
@@ -1048,6 +1054,10 @@ select {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -1209,6 +1219,9 @@ select {
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.opacity-60 {
+  opacity: 0.6;
 }
 .opacity-0 {
   opacity: 0;
